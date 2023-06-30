@@ -1,0 +1,101 @@
+body{
+    /* width: 1024px; */
+    margin: auto;
+    font-family:arial;
+    background-color: lightgrey;
+    color: white;
+}
+
+/*div{
+    font-size:26px;
+    margin-right: 100px;
+    margin-top: 50px;
+    float: right;
+    width: 500px;
+    height: 500px;
+    color: grey;
+}*/
+
+#i1{
+    margin:50px;
+    height:300px;
+    width: 300px;
+    float: right;
+    background-image: url("https://img.freepik.com/premium-vector/time-is-money-scales-icon-concept-save-time-money-saving-money-time-balance-scale_399089-1509.jpg?w=300");
+}
+
+#i2{
+    margin:50px;
+    height:300px;
+    width: 300px;
+    float: left;
+    background-image: url("https://static.toiimg.com/photo/msid-72957169/72957169.jpg");
+}
+
+#i3{
+    margin:50px;
+    height:300px;
+    width: 300px;
+    float: right;
+    background-image: url("https://media.istockphoto.com/id/1211547141/photo/modern-restaurant-interior-design.jpg?s=612x612&w=0&k=20&c=CvJmHwNNwfFzVjj1_cX9scwYsl4mnVO8XFPi0LQMTsw="  )
+}
+
+#i4{
+    margin:50px;
+    height:300px;
+    width: 300px;
+    float: left;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOvn4wIRW2vZpMEedZe1BVA-Qjw3-8krw5A&usqp=CAU");
+}
+
+#t1{
+    margin:50px;
+    height:300px;
+    width: 500px;
+    float: left;
+    font-size:40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#t2{
+    margin:50px;
+    height:300px;
+    width: 500px;
+    float: right;
+     font-size:40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#t3{
+    margin:50px;    
+    height:300px;
+    width: 500px;
+    float: left;
+     font-size:40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#t4{
+    margin:50px;    
+    height:300px;
+    width: 500px;
+    float: right;
+     font-size:40px;
+    text-shadow: 2px 2px 2px black;
+}
+#navibar{
+    background-color: lime;
+    padding: 5px 100px 5px ;
+    padding-top: 5px;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 70px;
+    justify-content: end;
+    justify-items: end;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}

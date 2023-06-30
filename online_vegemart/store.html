@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Vegetable and fruits Store</title>
+	<link rel="stylesheet" type="text/css" href="store.css">
+</head>
+<body>
+	<header>
+		<h1>Online Vegetable and fruits Store</h1>
+	</header>
+	<nav>
+		<ul class="header">
+			<li><a href="register.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="store.html">Products</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Welcome to our online vegetable and fruits store!</h2>
+		<p>We offer a wide variety of fresh and organic vegetables at affordable prices. Browse our selection below:</p>
+		
+		<div class="container">
+			<div class="product">
+				<img src="apple.jpeg" alt="Apple">
+			  <h2>Apple</h2>
+			  <p>Price: $1.99</p>
+			 
+			  <button onclick="addToCart('Apple')">Add to Cart</button>
+			</div>
+			<div class="product"> 
+				<img src="carrot.jpeg" alt="Carrots">
+				<h3>Carrots</h3>
+				
+				<p class="price">$1.99/lb</p>
+				
+				<button onclick="addToCart('carrots')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="spinach.jpeg" alt="Spinach">
+				<h3>Spinach</h3>
+				
+				<p class="price">$3.99/lb</p>
+				
+				<button onclick="addToCart('spinach')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="Broccoli.jpg" alt="Broccoli">
+					<h3>Broccoli</h3>
+
+					<p class="price">$2.49/lb</p>
+					
+					<button onclick="addToCart('Broccoli')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>potato</h3>
+
+				<p class="price">$2/kg</p>
+				<img src="potato.jpg" alt="">
+				<button onclick="addToCart('potato')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>brinjan</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="brinjal.jpg" alt="">
+				<button onclick="addToCart('brinjal')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>cauliflower</h3>
+
+				<p class="price">$2/kg</p>
+				<img src="cauliflower.jpeg" alt="">
+				<button onclick="addToCart('cauliflower')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>apple</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="apple.jpeg" alt="">
+				<button onclick="addToCart('apple')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>banana</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="banana.jpg" alt="">
+				<button onclick="addToCart('banana')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>papaya</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="papaya.webp" alt="">
+				<button onclick="addToCart('papaya')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>grapes</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="grapes.jpg" alt="">
+				<button onclick="addToCart('grapes')">Add to Cart</button>
+			</div>
+			
+			<div class="product">
+				<h3>orange</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="Oranges.webp" alt="">
+				<button onclick="addToCart('orange')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<h3>pomegranate</h3>
+				
+				<p class="price">$2/kg</p>
+				<img src="pomegranate.webp" alt="">
+				<button onclick="addToCart('pomegranate')">Add to Cart</button>
+			</div>
+			
+			
+      <h2>Cart</h2>
+	  
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0</span></p>
+	 
+    </div>
+
+		
+	</main>
+	<iframe src="pay.html" frameborder="0" width="100%" height="600"></iframe>
+	<footer>
+		<p>Copyright © Online Vegetable Store
+	</footer>
+	<script src="store.js"></script>
+</body>
+</html>

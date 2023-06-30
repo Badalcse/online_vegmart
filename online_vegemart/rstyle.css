@@ -1,0 +1,28 @@
+body{
+    
+    margin: auto;
+    font-family:Arial;
+    background-color:lightgrey;
+}
+
+p{
+    font-size:15px;
+    font-style:italic;
+    color:grey;
+}
+#navibar{
+    background-color: lime;
+    padding: 5px 100px 5px ;
+    padding-top: 5px;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 70px;
+    justify-content: end;
+    justify-items: end;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}

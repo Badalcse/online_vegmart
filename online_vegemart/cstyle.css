@@ -1,0 +1,33 @@
+body{
+    /* width: 1024px; */
+    margin: auto;
+    font-family:Arial;
+    background-color: lightgrey;
+    color: white;
+}
+
+div#text{
+    font-size:26px;
+    margin-right: 100px;
+    margin-top: 50px;
+    float: right;
+    width: 500px;
+    height: 500px;
+    color: grey;
+}
+#navibar{
+    background-color: lime;
+    padding: 5px 100px 5px ;
+    padding-top: 5px;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 70px;
+    justify-content: end;
+    justify-items: end;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1em;
+  }
+  #navibar{
+    background-color: lime;
+    padding: 5px 100px 5px ;
+    padding-top: 5px;
+}
+  
+  #nav{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 70px;
+    justify-content: end;
+    justify-items: end;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}
+  
